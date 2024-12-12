@@ -1,0 +1,72 @@
+{
+    "siteMeta": {
+        "title": "Datum Documentation (Staging)",
+        "description": "Guides and references for Datum Cloud & Datum OS"
+    },
+    "subdomain": "staging-datum-docs.apidocumentation.com",
+    "publishOnMerge": true,
+    "guides": [{
+            "name": "Guide",
+            "sidebar": [{
+                "name": "Datum Cloud Operator",
+                "type": "folder",
+                "children": [{
+                    "name": "Quick Start",
+                    "type": "folder",
+                    "children": [{
+                            "path": "guide/datum-cloud-operator/summary.md",
+                            "type": "page"
+                        },
+                        {
+                            "path": "guide/datum-cloud-operator/prerequisites.md",
+                            "type": "page"
+                        },
+                        {
+                            "path": "guide/datum-cloud-operator/control-plane-setup.md",
+                            "type": "page"
+                        },
+                        {
+                            "path": "guide/datum-cloud-operator/third-party-operators.md",
+                            "type": "page"
+                        },
+                        {
+                            "path": "guide/datum-cloud-operator/datum-operator-installation.md",
+                            "type": "page"
+                        },
+                        {
+                            "path": "guide/datum-cloud-operator/deploying-resources.md",
+                            "type": "page"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "name": "Handbook",
+            "sidebar": [{
+                "path": "handbook/welcome.md",
+                "type": "page"
+            }]
+        }
+    ],
+    "references": [{
+        "name": "API Reference",
+        "path": "api/openapi.swagger.json"
+    }],
+    "siteConfig": {
+        "logo": {
+            "darkMode": "https://cloud.datum.net/icons/docs-logo.png",
+            "lightMode": "https://cloud.datum.net/icons/docs-logo.png"
+        },
+        "favicon": "favicon.ico",
+        "metaData": {
+            "title": "Datum Documentation",
+            "description": "Guides and references for Datum Cloud & Datum OS",
+            "ogDescription": "Guides and references for Datum Cloud & Datum OS",
+            "ogTitle": "Datum Documentation",
+            "ogImage": "https://cloud.datum.net/icons/docs-logo.png",
+            "twitterCard": "summary_large_image"
+        },
+        "footer": ""
+    }
+}
